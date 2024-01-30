@@ -79,8 +79,10 @@ include "connection.php";
                         <option value="" disabled selected>TYPE</option>
                         <option value="Robotics">Robotics</option>
                         <option value="Other">Other</option>
+                        <!--
                         <option value="imax">IMAX</option>
                         <option value="7d">7D</option>
+                        -->
                     </select>
 
                     <select name="date" required>
@@ -106,9 +108,9 @@ include "connection.php";
 
                     <input placeholder="Last Name" type="text" name="lName">
 
-                    <input placeholder="Phone Number" type="text" name="pNumber" required>
+                  <!--  <input placeholder="Phone Number" type="text" name="pNumber" required>-->
                     <input placeholder="email" type="email" name="email" required>
-                    <input type="hidden" name="movie_id" value="<?php echo $id; ?>">
+                   <!-- <input type="hidden" name="movie_id" value="<?//php echo $id; ?>">-->
 
 
 
