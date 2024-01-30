@@ -77,8 +77,8 @@ $row = mysqli_fetch_array($movieImageById);
 
                     <select name="type" required>
                         <option value="" disabled selected>TYPE</option>
-                        <option value="Robotics">3D</option>
-                        <option value="Other">2D</option>
+                        <option value="Robotics">Robotics</option>
+                        <option value="Other">Other</option>
                         <option value="imax">IMAX</option>
                         <option value="7d">7D</option>
                     </select>
