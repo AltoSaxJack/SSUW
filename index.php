@@ -28,8 +28,8 @@ include "connection.php";
         <div class="booking-panel-section booking-panel-section1">
             <h1>RESERVE A TIME SLOT</h1>
         </div>
-       <div class="booking-panel-section booking-panel-section2" onclick="window.history.go(-1); return false;">
-            <!--  <i class="fas fa-2x fa-times"></i>-->
+     <!--  <div class="booking-panel-section booking-panel-section2" onclick="window.history.go(-1); return false;">
+              <i class="fas fa-2x fa-times"></i>
         </div>
        <div class="booking-panel-section booking-panel-section3">
             <div class="movie-box">
@@ -37,10 +37,10 @@ include "connection.php";
            //     echo '<img src="' . $row['movieImg'] . '" alt="">';
                 ?>
             </div>
-        </div>
+        </div>-->
         <div class="booking-panel-section booking-panel-section4">
             <div class="title"><?php echo 'StemSignUp'; ?></div>
-            <div class="movie-information">
+           <!-- <div class="movie-information">
                <!--   <table>
                   <tr>
                         <td>GENGRE</td>
@@ -62,8 +62,8 @@ include "connection.php";
                         <td>ACTORS</td>
                         <td><?php //echo $row['movieActors']; ?></td>
                     </tr>
-                </table>-->
-            </div>
+                </table>
+            </div>-->
             <div class="booking-form-container">
                 <form action="verify.php" method="POST">
 
