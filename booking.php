@@ -7,9 +7,9 @@ if ((!$_GET['id'])) {
     echo "<script>alert('You are Not Suppose to come Here Directly');window.location.href='index.php';</script>";
 }
 include "connection.php";
-$movieQuery = "SELECT * FROM movieTable WHERE movieID = $id";
-$movieImageById = mysqli_query($con, $movieQuery);
-$row = mysqli_fetch_array($movieImageById);
+//$movieQuery = "SELECT * FROM movieTable WHERE movieID = $id";
+//$movieImageById = mysqli_query($con, $movieQuery);
+//$row = mysqli_fetch_array($movieImageById);
 ?>
 
 <head>
@@ -34,35 +34,35 @@ $row = mysqli_fetch_array($movieImageById);
         <div class="booking-panel-section booking-panel-section3">
             <div class="movie-box">
                 <?php
-                echo '<img src="' . $row['movieImg'] . '" alt="">';
+           //     echo '<img src="' . $row['movieImg'] . '" alt="">';
                 ?>
             </div>
         </div>
         <div class="booking-panel-section booking-panel-section4">
-            <div class="title"><?php echo $row['movieTitle']; ?></div>
+            <div class="title"><?php echo 'StemSignUp'; ?></div>
             <div class="movie-information">
-                <table>
-                    <tr>
+               <!--   <table>
+                  <tr>
                         <td>GENGRE</td>
                         <td><?php echo $row['movieGenre']; ?></td>
                     </tr>
                     <tr>
                         <td>DURATION</td>
-                        <td><?php echo $row['movieDuration']; ?></td>
+                        <td><?php// echo $row['movieDuration']; ?></td>
                     </tr>
                     <tr>
                         <td>RELEASE DATE</td>
-                        <td><?php echo $row['movieRelDate']; ?></td>
+                        <td><?php// echo $row['movieRelDate']; ?></td>
                     </tr>
                     <tr>
                         <td>DIRECTOR</td>
-                        <td><?php echo $row['movieDirector']; ?></td>
+                        <td><?php// echo $row['movieDirector']; ?></td>
                     </tr>
                     <tr>
                         <td>ACTORS</td>
-                        <td><?php echo $row['movieActors']; ?></td>
+                        <td><?php //echo $row['movieActors']; ?></td>
                     </tr>
-                </table>
+                </table>-->
             </div>
             <div class="booking-form-container">
                 <form action="verify.php" method="POST">
