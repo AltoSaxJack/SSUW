@@ -28,16 +28,16 @@ include "connection.php";
         <div class="booking-panel-section booking-panel-section1">
             <h1>RESERVE A TIME SLOT</h1>
         </div>
-        <div class="booking-panel-section booking-panel-section2" onclick="window.history.go(-1); return false;">
+        <!-- <div class="booking-panel-section booking-panel-section2" onclick="window.history.go(-1); return false;">
             <i class="fas fa-2x fa-times"></i>
-        </div>
-        <div class="booking-panel-section booking-panel-section3">
+        </div>-->
+       <!-- <div class="booking-panel-section booking-panel-section3">
             <div class="movie-box">
                 <?php
            //     echo '<img src="' . $row['movieImg'] . '" alt="">';
                 ?>
             </div>
-        </div>
+        </div>-->
         <div class="booking-panel-section booking-panel-section4">
             <div class="title"><?php echo 'StemSignUp'; ?></div>
             <div class="movie-information">
