@@ -68,12 +68,12 @@ include "connection.php";
                 <form action="verify.php" method="POST">
 
 
-                    <select name="theatre" required>
+               <!--      <select name="theatre" required>
                         <option value="" disabled selected>THEATRE</option>
                         <option value="main-hall">Main Hall</option>
                         <option value="vip-hall">VIP Hall</option>
                         <option value="private-hall">Private Hall</option>
-                    </select>
+                    </select>-->
 
                     <select name="type" required>
                         <option value="" disabled selected>TYPE</option>
