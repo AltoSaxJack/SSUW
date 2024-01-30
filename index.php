@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <?php
-$id = $_GET['id'];
+//$id = $_GET['id'];
 //conditions
 //if ((!$_GET['id'])) {
 //    echo "<script>alert('You are Not Suppose to come Here Directly');window.location.href='index.php';</script>";
