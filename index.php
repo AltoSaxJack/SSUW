@@ -25,10 +25,10 @@ include "connection.php";
 
 <body style="background-color:#6e5a11;">
     <div class="booking-panel">
-        <div class="booking-panel-section booking-panel-section1">
+        <!--<div class="booking-panel-section booking-panel-section1">
             <h1>RESERVE A TIME SLOT</h1>
         </div>
-     <!--  <div class="booking-panel-section booking-panel-section2" onclick="window.history.go(-1); return false;">
+       <div class="booking-panel-section booking-panel-section2" onclick="window.history.go(-1); return false;">
               <i class="fas fa-2x fa-times"></i>
         </div>
        <div class="booking-panel-section booking-panel-section3">
