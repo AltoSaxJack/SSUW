@@ -114,7 +114,7 @@ include "connection.php";
 
 
 
-                    <button type="submit" value="save" name="submit" class="form-btn">Book a seat</button>
+                    <button type="submit" value="save" name="submit" class="form-btn">Book a Time</button>
 
                 </form>
             </div>
