@@ -92,7 +92,7 @@ if (isset($_POST['but_logout'])) {
 
                             <input placeholder="Last Name" type="text" name="lName">
 
-                            <input placeholder="Phone Number" type="text" name="pNumber" required>
+                            <!--<input placeholder="Phone Number" type="text" name="pNumber" required>-->
                             <input placeholder="email" type="email" name="email" required>
                             <input placeholder="Movie ID" type="text" name="movie_id">
                             
