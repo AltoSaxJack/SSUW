@@ -1,5 +1,5 @@
 <?php
-header("Pragma: no-cache");
+/*header("Pragma: no-cache");
 header("Cache-Control: no-cache");
 header("Expires: 0");
 
@@ -47,3 +47,4 @@ if ($isValidChecksum == "TRUE") {
 	echo "<b>Checksum mismatched.</b>";
 	//Process transaction as suspicious.
 }
+*/
