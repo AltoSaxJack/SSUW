@@ -534,7 +534,8 @@ footer {
   color: #fff;
   transition: all 0.7s ease;
   cursor: pointer;
-  height: 42px;
+  height: 420px;
+  /*ogHI42*/
 }
 
 .booking-form-container form button:hover {
@@ -568,9 +569,8 @@ footer {
   border: 1px solid #6e6e6e;
   padding: 10px;
   width: 31%; 
-  height: 420px;
+  height: 42px;
   margin: 5px 0;
-  /*ogHi420*/
 }
 
 /* Schedule Styling */
