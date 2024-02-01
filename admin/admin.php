@@ -88,13 +88,13 @@ if (!isset($_SESSION['uname'])) {
                                 $run = mysqli_query($con, $select);
                                 while ($row = mysqli_fetch_array($run)) {
                                     $bookingid = $row['bookingID'];
-                                    $movieID = $row['movieID'];
+                                 //   $movieID = $row['movieID'];
                                     $bookingFName = $row['bookingFName'];
                                     $bookingLName = $row['bookingLName'];
-                                    $mobile = $row['bookingPNumber'];
+                                 //   $mobile = $row['bookingPNumber'];
                                     $email = $row['bookingEmail'];
                                     $date = $row['bookingDate'];
-                                    $theatre = $row['bookingTheatre'];
+                                   // $theatre = $row['bookingTheatre'];
                                     $type = $row['bookingType'];
                                     $ORDERID = $row['ORDERID'];
 
