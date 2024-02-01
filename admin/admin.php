@@ -71,13 +71,13 @@ if (!isset($_SESSION['uname'])) {
                         <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
                             <tr>
                                 <th>Booking ID</th>
-                                <th>Movie ID</th>
+                               <!-- <th>Movie ID</th>-->
                                 <th>First Name</th>
                                 <th>Last Name</th>
                                 <!--<th>Phone Number</th>-->
                                 <th>Email</th>
                                 <th>Date</th>
-                                <th>Theatre</th>
+                                <!--<th>Theatre</th>-->
                                 <th>Type</th>
                                 <th>Order ID</th>
                             </tr>
