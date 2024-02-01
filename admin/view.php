@@ -55,7 +55,7 @@ if (isset($_POST['but_logout'])) {
                             <th>Booking ID</th>
                             <th>Movie ID</th>
                             <th>Name</th>
-                            <th>Phone Number</th>
+                            <!--<th>Phone Number</th>-->
                             <th>Email</th>
                             <th>Date</th>
                             <th>Theatre & Type</th>
