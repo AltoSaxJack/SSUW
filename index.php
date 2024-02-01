@@ -87,9 +87,9 @@ include "connection.php";
 
                     <select name="date" required>
                         <option value="" disabled selected>DATE</option>
-                        <option value="12-3"> <?php echo date("d/m/Y")?> </option>
-                        <option value="13-3"><?php echo date("d/m/Y", strtotime("+1 day")) ?></option>
-                        <option value="14-3"><?php echo date("d/m/Y", strtotime("+2 day")) ?></option>
+                        <option value=<?php echo date("d/m/Y")?>> <?php echo date("d/m/Y")?> </option>
+                        <option value="13-3"><?php echo date("d/m/Y", strtotime("+1 day"))?></option>
+                        <option value="14-3"><?php echo date("d/m/Y", strtotime("+2 day"))?></option>
                         <option value="15-3"><?php echo date("d/m/Y", strtotime("+3 day"))?></option>
                         <option value="16-3"><?php echo date("d/m/Y", strtotime("+4 day"))?></option>
                     </select>
