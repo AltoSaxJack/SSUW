@@ -96,7 +96,7 @@ if (isset($_POST['but_logout'])) {
                             <input placeholder="email" type="email" name="email" required>
                             <input placeholder="Movie ID" type="text" name="movie_id">
                             
-                            <input placeholder="Amount" type="text" name="cash" required>
+                            <!--<input placeholder="Amount" type="text" name="cash" required>-->
 
                             <button type="submit" value="submit" name="submit" class="form-btn">ADD ENTRY</button>
                             
