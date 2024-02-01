@@ -29,14 +29,14 @@ SET time_zone = "-05:00";
 
 CREATE TABLE `bookingtable` (
   `bookingID` int(11) NOT NULL,
-  `movieID` int(11) DEFAULT NULL,
-  `bookingTheatre` varchar(100) NOT NULL,
+  --`movieID` int(11) DEFAULT NULL,
+ -- `bookingTheatre` varchar(100) NOT NULL,
   `bookingType` varchar(100) DEFAULT NULL,
   `bookingDate` varchar(50) NOT NULL,
   `bookingTime` varchar(50) NOT NULL,
   `bookingFName` varchar(100) NOT NULL,
   `bookingLName` varchar(100) DEFAULT NULL,
-  `bookingPNumber` varchar(12) NOT NULL,
+--  `bookingPNumber` varchar(12) NOT NULL,
   `bookingEmail` varchar(255) NOT NULL,
   `amount` varchar(255) NOT NULL,
   `ORDERID` varchar(255) NOT NULL,
