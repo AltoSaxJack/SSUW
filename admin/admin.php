@@ -74,7 +74,7 @@ if (!isset($_SESSION['uname'])) {
                                 <th>Movie ID</th>
                                 <th>First Name</th>
                                 <th>Last Name</th>
-                                <th>Phone Number</th>
+                                <!--<th>Phone Number</th>-->
                                 <th>Email</th>
                                 <th>Date</th>
                                 <th>Theatre</th>
