@@ -87,7 +87,7 @@ include "connection.php";
 
                     <select name="date" required>
                         <option value="" disabled selected>DATE</option>
-                        <option value="12-3">March 12,2019</option>
+                        <option value="12-3">date("d/m/Y")</option>
                         <option value="13-3">March 13,2019</option>
                         <option value="14-3">March 14,2019</option>
                         <option value="15-3">March 15,2019</option>
