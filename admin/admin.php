@@ -70,7 +70,7 @@ if (!isset($_SESSION['uname'])) {
                     <div class="admin-panel-section-content">
                         <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
                             <tr>
-                                <th>Booking ID</th>
+                                <th>SignUp ID</th>
                                <!-- <th>Movie ID</th>-->
                                 <th>First Name</th>
                                 <th>Last Name</th>
@@ -103,13 +103,13 @@ if (!isset($_SESSION['uname'])) {
                                 ?>
                                     <tr align="center">
                                         <td><?php echo $bookingid; ?></td>
-                                        <td><?php echo $movieID; ?></td>
+                                         <!--<td><?php //echo $movieID; ?></td>-->
                                         <td><?php echo $bookingFName; ?></td>
                                         <td><?php echo $bookingLName; ?></td>
-                                        <td><?php echo $mobile; ?></td>
+                                        <!-- <td><?php //echo $mobile; ?></td>-->
                                         <td><?php echo $email; ?></td>
                                         <td><?php echo $date; ?></td>
-                                        <td><?php echo $theatre; ?></td>
+                                        <!--<td><?php //echo $theatre; ?></td>-->
                                         <td><?php echo $type; ?></td>
                                         <td><?php echo $ORDERID; ?></td>
                                     </tr>
