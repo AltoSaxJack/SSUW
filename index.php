@@ -18,7 +18,7 @@ include "connection.php";
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="style/styles.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-    <title>Book <?php echo $row['movieTitle']; ?> Now</title>
+    <!--<title>Book <?php// echo $row['movieTitle']; ?> Now</title>-->
     <link rel="icon" type="image/png" href="img/logo.png">
     <script src="_.js "></script>
 </head>
@@ -44,7 +44,7 @@ include "connection.php";
                <!--   <table>
                   <tr>
                         <td>GENGRE</td>
-                        <td><?php echo $row['movieGenre']; ?></td>
+                        <td><?php //echo $row['movieGenre']; ?></td>
                     </tr>
                     <tr>
                         <td>DURATION</td>
