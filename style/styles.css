@@ -482,10 +482,10 @@ footer {
   border-radius: 10px;
   border: 1px #6e5a11 solid;
   background-color: #fff;
+  width: 900px;
 }
 
 .booking-panel-section4 > .title {
-  width: 1200px;
   border-bottom: #969696 1px solid;
   color: #6e5a11;
   padding: 0 0 15px 0;
