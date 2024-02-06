@@ -103,7 +103,7 @@ if (isset($_POST['submit'])) {
                             <?php
                         //    if ($theatre == "main-hall") {
                         //        $ta = 200;
-                            }
+                 //           }
                         //    if ($theatre == "vip-hall") {
                          //       $ta = 500;
                          //   }
