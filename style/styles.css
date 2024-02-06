@@ -440,7 +440,8 @@ footer {
   -webkit-box-shadow: 1px 0px 23px 3px rgba(0, 0, 0, 0.45);
   -moz-box-shadow: 1px 0px 23px 3px rgba(0, 0, 0, 0.45);
   transition: all 0.7s ease;
-  width: 90%;
+  width: 100%;
+  /*ogWID90*/
   height: 100vh;
   margin: 0 auto;
 }
