@@ -6,12 +6,12 @@ session_start();
 $fname = $_POST['fName'];
 $lname = $_POST['lName'];
 $email = $_POST['email'];
-$mobile = $_POST['pNumber'];
-$theatre = $_POST['theatre'];
+//$mobile = $_POST['pNumber'];
+//$theatre = $_POST['theatre'];
 $type = $_POST['type'];
 $date = $_POST['date'];
 $time = $_POST['hour'];
-$movieid = $_POST['movie_id'];
+//$movieid = $_POST['movie_id'];
 $order = "ARVR" . rand(10000, 99999999);
 $cust  = "CUST" . rand(1000, 999999);
 
@@ -57,7 +57,7 @@ if (isset($_POST['submit'])) {
         <form method="post" action="pgRedirect.php">
             <table border="1" style="text-align: center;">
                 <tbody>
-                    <tr>
+                    <!--<tr>
                         <th>S.No</th>
                         <th>Label</th>
                         <th>Value</th>
@@ -121,6 +121,7 @@ if (isset($_POST['submit'])) {
 
                         </td>
                     </tr>
+                    -->
 
 
                     <tr>
