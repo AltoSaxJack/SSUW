@@ -6,12 +6,12 @@ session_start();
 $fname = $_POST['fName'];
 $lname = $_POST['lName'];
 $email = $_POST['email'];
-$mobile = $_POST['pNumber'];
-$theatre = $_POST['theatre'];
+//$mobile = $_POST['pNumber'];
+//$theatre = $_POST['theatre'];
 $type = $_POST['type'];
 $date = $_POST['date'];
 $time = $_POST['hour'];
-$movieid = $_POST['movie_id'];
+//$movieid = $_POST['movie_id'];
 $order = "ARVR" . rand(10000, 99999999);
 $cust  = "CUST" . rand(1000, 999999);
 
@@ -26,7 +26,8 @@ if ((!$_POST['submit'])) {
 
 if (isset($_POST['submit'])) {
 
-    $qry = "INSERT INTO bookingtable(`movieID`, `bookingTheatre`, `bookingType`, `bookingDate`, `bookingTime`, `bookingFName`, `bookingLName`, `bookingPNumber`, `bookingEmail`,`amount`, `ORDERID`)VALUES ('$movieid','$theatre','$type','$date','$time','$fname','$lname','$mobile','$email','Not Paid','$order')";
+  //  $qry = "INSERT INTO bookingtable(`movieID`, `bookingTheatre`, `bookingType`, `bookingDate`, `bookingTime`, `bookingFName`, `bookingLName`, `bookingPNumber`, `bookingEmail`,`amount`, `ORDERID`)VALUES ('$movieid','$theatre','$type','$date','$time','$fname','$lname','$mobile','$email','Not Paid','$order')";
+    $qry = "INSERT INTO bookingtable(`bookingType`, `bookingDate`, `bookingTime`, `bookingFName`, `bookingLName`, `bookingEmail`,`amount`, `ORDERID`)VALUES ('$type','$date','$time','$fname','$lname','$email','Not Paid','$order')";
 
     $result = mysqli_query($con, $qry);
 }
@@ -85,7 +86,7 @@ if (isset($_POST['submit'])) {
                         <td>4</td>
                         <td><label>THEATRE ::*</label></td>
                         <td>
-                            <?php echo $_POST['theatre']; ?>
+                            <?php //echo $_POST['theatre']; ?>
                         </td>
                     </tr>
                     <tr>
@@ -100,15 +101,16 @@ if (isset($_POST['submit'])) {
                         <td><label>txnAmount*</label></td>
                         <td>
                             <?php
-                            if ($theatre == "main-hall") {
-                                $ta = 200;
+                        //    if ($theatre == "main-hall") {
+                        //        $ta = 200;
                             }
-                            if ($theatre == "vip-hall") {
-                                $ta = 500;
-                            }
-                            if ($theatre == "private-hall") {
-                                $ta = 900;
-                            }
+                        //    if ($theatre == "vip-hall") {
+                         //       $ta = 500;
+                         //   }
+                         //   if ($theatre == "private-hall") {
+                         //       $ta = 900;
+                        //    }
+                            $ta = 100
 
                             ?>
 
