@@ -51,7 +51,7 @@ if (isset($_POST['submit'])) {
 <body>
     <center>
         <br><br>
-        <h1>Proceed for Payment </h1>
+        <h1>Confirm your Time </h1>
         <br><br>
 
         <form method="post" action="pgRedirect.php">
