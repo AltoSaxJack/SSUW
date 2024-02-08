@@ -91,7 +91,7 @@ if (isset($_POST['submit'])) {
                     </tr>-->
                     <tr>
                         <td>5</td>
-                        <td><label>TYPE ::*</label></td>
+                        <td><label>TYPE</label></td>
                         <td>
                             <?php echo $_POST['type']; ?>
                         </td>
@@ -130,7 +130,7 @@ if (isset($_POST['submit'])) {
                         <td></td>
                         <td></td>
                         <td>
-                            <button value="Book Now!" type="submit" onclick="" type="button" class="btn btn-danger">Pay Now!</button>
+                            <button value="Book Now!" type="submit" onclick="" type="button" class="btn btn-danger">Submit!</button>
                             <!-- <input value="CheckOut" type="submit"	onclick=""></td> -->
                     </tr>
                 </tbody>
