@@ -50,45 +50,45 @@ if (isset($_POST['submit'])) {
 
 <body>
     <center>
-        <br><br>
+     <!--   <br><br>
         <h1>Confirm your Time </h1>
         <br><br>
-
+  -->
         <form method="post" action="pgRedirect.php">
             <table border="1" style="text-align: center;">
                 <tbody>
-                    <!--<tr>
+                  <!--  <tr>
                         <th>S.No</th>
                         <th>Label</th>
                         <th>Value</th>
                     </tr>
-                    <tr>
+                     <tr>
                         <td>1</td>
                         <td><label>ORDER_ID::*</label></td>
-                        <td><?php echo $order; ?>
-                            <input type="hidden" name="ORDER_ID" value="<?php echo $order; ?>">
+                        <td><?php //echo $order; ?>
+                            <input type="hidden" name="ORDER_ID" value="<?//php echo $order; ?>">
                         </td>
-                    </tr>
+                    </tr>-->
 
                     <tr>
                         <td>2</td>
                         <td><label>Name</label></td>
                         <td><?php echo $_POST['fName'] . " " . $_POST['lName']; ?></td>
                     </tr>
-                    <tr>
+                   <!-- <tr>
                         <td>3</td>
                         <td><label>Website ::*</label></td>
                         <td>
-                            <?php echo "ARVRcinemas"; ?>
+                            <?//php echo "ARVRcinemas"; ?>
                         </td>
                     </tr>
-                    <tr>
+                     <tr>
                         <td>4</td>
-                        <td><label>THEATRE ::*</label></td>
+                       <td><label>THEATRE ::*</label></td>
                         <td>
                             <?php //echo $_POST['theatre']; ?>
-                        </td>
-                    </tr>
+                        </td>  
+                    </tr>-->
                     <tr>
                         <td>5</td>
                         <td><label>TYPE ::*</label></td>
@@ -96,6 +96,7 @@ if (isset($_POST['submit'])) {
                             <?php echo $_POST['type']; ?>
                         </td>
                     </tr>
+                    <!-- 
                     <tr>
                         <td>6</td>
                         <td><label>txnAmount*</label></td>
@@ -110,18 +111,19 @@ if (isset($_POST['submit'])) {
                          //   if ($theatre == "private-hall") {
                          //       $ta = 900;
                         //    }
-                            $ta = 100
+                          //  $ta = 100
 
                             ?>
 
-                            <input type="text" name="TXN_AMOUNT" value="<?php echo $ta; ?>" readonly>
-                            <input type="hidden" name="CUST_ID" value="<?php echo $cust; ?>">
+                            <input type="text" name="TXN_AMOUNT" value="<?php //echo $ta; ?>" readonly>
+                            <input type="hidden" name="CUST_ID" value="<?php //echo $cust; ?>">
                             <input type="hidden" name="INDUSTRY_TYPE_ID" value="retail">
                             <input type="hidden" name="CHANNEL_ID" value="WEB">
-
+                          
                         </td>
                     </tr>
-                    -->
+                      -->
+                    
 
 
                     <tr>
