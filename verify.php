@@ -54,7 +54,7 @@ if (isset($_POST['submit'])) {
         <h1>Confirm your Time </h1>
         <br><br>
   -->
-        <form method="post" action="pgRedirect.php">
+        <form method="post" action="NewSubmittedPage.php">
             <table border="1" style="text-align: center;">
                 <tbody>
                   <!--  <tr>
