@@ -71,7 +71,7 @@ if (isset($_POST['submit'])) {
                     </tr>-->
 
                     <tr>
-                        <td>2</td>
+                        <td>1</td>
                         <td><label>Name</label></td>
                         <td><?php echo $_POST['fName'] . " " . $_POST['lName']; ?></td>
                     </tr>
@@ -90,7 +90,7 @@ if (isset($_POST['submit'])) {
                         </td>  
                     </tr>-->
                     <tr>
-                        <td>5</td>
+                        <td>2</td>
                         <td><label>TYPE</label></td>
                         <td>
                             <?php echo $_POST['type']; ?>
@@ -135,7 +135,6 @@ if (isset($_POST['submit'])) {
                     </tr>
                 </tbody>
             </table>
-            * - Mandatory Fields
         </form>
     </center>
     <!-- Optional JavaScript -->
