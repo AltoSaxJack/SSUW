@@ -3,8 +3,8 @@ header("Pragma: no-cache");
 header("Cache-Control: no-cache");
 header("Expires: 0");
 // following files need to be included
-require_once("./lib/config_paytm.php");
-require_once("./lib/encdec_paytm.php");
+//require_once("./lib/config_paytm.php");
+//require_once("./lib/encdec_paytm.php");
 
 
 
@@ -53,7 +53,7 @@ $paramList["IS_USER_VERIFIED"] = "YES"; //
 		<h1>Please Wait</h1>
 	</center>
 	<form method="post" action="<?php echo "YOU ARE DONE!" ?>" name="f1">
-		<table border="1">
+		<!-- <table border="1">
 			<tbody>
 				<?php
 				//foreach ($paramList as $name => $value) {
@@ -61,11 +61,10 @@ $paramList["IS_USER_VERIFIED"] = "YES"; //
 			//	}
 				?>
 			</tbody>
-		</table>
+		</table> -->
 		<script type="text/javascript">
 			document.f1.submit();
 		</script>
 	</form>
 </body>
-
 </html>
