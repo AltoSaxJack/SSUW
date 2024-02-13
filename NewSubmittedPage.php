@@ -63,7 +63,7 @@ $paramList["IS_USER_VERIFIED"] = "YES"; //
 			</tbody>
 		</table> -->
 		<script type="text/javascript">
-			document.f1.submit();
+		//	document.f1.submit();
 		</script>
 	</form>
 </body>
