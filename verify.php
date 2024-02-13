@@ -12,8 +12,8 @@ $type = $_POST['type'];
 $date = $_POST['date'];
 $time = $_POST['hour'];
 //$movieid = $_POST['movie_id'];
-$order = "ARVR" . rand(10000, 99999999);
-$cust  = "CUST" . rand(1000, 999999);
+//$order = "ARVR" . rand(10000, 99999999);
+//$cust  = "CUST" . rand(1000, 999999);
 
 //sessions
 // $_SESSION['ORDERID'] = $order;
