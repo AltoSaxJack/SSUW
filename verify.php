@@ -71,22 +71,18 @@ if (isset($_POST['submit'])) {
                     </tr>-->
 
                     <tr>
-                        <td>1</td>
                         <td><label>Name</label></td>
                         <td><?php echo $_POST['fName'] . " " . $_POST['lName']; ?></td>
                     </tr>
                     <tr>
-                        <td>2</td>
                         <td><label>Date</label></td>
                         <td><?php echo $_POST['date']; ?></td>
                     </tr>
                     <tr>
-                        <td>3</td>
                         <td><label>Time</label></td>
                         <td><?php echo $_POST['hour']; ?></td>
                     </tr>
                     <tr>
-                        <td>4</td>
                         <td><label>Time</label></td>
                         <td><?php echo $_POST['email']; ?></td>
                     </tr>
@@ -105,7 +101,6 @@ if (isset($_POST['submit'])) {
                         </td>  
                     </tr>-->
                     <tr>
-                        <td>5</td>
                         <td><label>TYPE</label></td>
                         <td><?php echo $_POST['type']; ?></td>
                     </tr>
