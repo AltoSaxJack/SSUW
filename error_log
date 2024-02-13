@@ -36,3 +36,8 @@
 [Tue Feb 13 07:47:52.486445 2024] [mpm_prefork:notice] [pid 2399] AH00163: Apache/2.4.56 (Unix) OpenSSL/1.1.1t PHP/8.2.4 mod_perl/2.0.12 Perl/v5.34.1 configured -- resuming normal operations
 [Tue Feb 13 07:47:52.486495 2024] [core:notice] [pid 2399] AH00094: Command line: '/Applications/XAMPP/xamppfiles/bin/httpd -E /Applications/XAMPP/xamppfiles/logs/error_log -D SSL -D PHP'
 [Tue Feb 13 08:28:38.714913 2024] [mpm_prefork:notice] [pid 2399] AH00169: caught SIGTERM, shutting down
+[Tue Feb 13 08:53:11.112897 2024] [ssl:warn] [pid 6830] AH01906: localhost:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Tue Feb 13 08:53:11.226511 2024] [ssl:warn] [pid 6831] AH01906: localhost:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Tue Feb 13 08:53:11.226694 2024] [lbmethod_heartbeat:notice] [pid 6831] AH02282: No slotmem from mod_heartmonitor
+[Tue Feb 13 08:53:11.268643 2024] [mpm_prefork:notice] [pid 6831] AH00163: Apache/2.4.56 (Unix) OpenSSL/1.1.1t PHP/8.2.4 mod_perl/2.0.12 Perl/v5.34.1 configured -- resuming normal operations
+[Tue Feb 13 08:53:11.268689 2024] [core:notice] [pid 6831] AH00094: Command line: '/Applications/XAMPP/xamppfiles/bin/httpd -E /Applications/XAMPP/xamppfiles/logs/error_log -D SSL -D PHP'
