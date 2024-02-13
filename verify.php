@@ -75,6 +75,21 @@ if (isset($_POST['submit'])) {
                         <td><label>Name</label></td>
                         <td><?php echo $_POST['fName'] . " " . $_POST['lName']; ?></td>
                     </tr>
+                    <tr>
+                        <td>2</td>
+                        <td><label>Date</label></td>
+                        <td><?php echo $_POST['date']; ?></td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td><label>Time</label></td>
+                        <td><?php echo $_POST['hour']; ?></td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td><label>Time</label></td>
+                        <td><?php echo $_POST['email']; ?></td>
+                    </tr>
                    <!-- <tr>
                         <td>3</td>
                         <td><label>Website ::*</label></td>
@@ -90,11 +105,9 @@ if (isset($_POST['submit'])) {
                         </td>  
                     </tr>-->
                     <tr>
-                        <td>2</td>
+                        <td>5</td>
                         <td><label>TYPE</label></td>
-                        <td>
-                            <?php echo $_POST['type']; ?>
-                        </td>
+                        <td><?php echo $_POST['type']; ?></td>
                     </tr>
                     <!-- 
                     <tr>
@@ -130,7 +143,7 @@ if (isset($_POST['submit'])) {
                         <td></td>
                         <td></td>
                         <td>
-                            <button value="Book Now!" type="submit" onclick="" type="button" class="btn btn-danger">Submit!</button>
+                            <button value="Book Now!" type="submit" onclick="" type="button" class="btn btn-danger">Confirm and Submit!</button>
                             <!-- <input value="CheckOut" type="submit"	onclick=""></td> -->
                     </tr>
                 </tbody>
