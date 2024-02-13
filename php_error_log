@@ -1,0 +1,87 @@
+[06-Feb-2024 14:18:13 Europe/Berlin] PHP Parse error:  Unmatched '}' in /Applications/XAMPP/xamppfiles/htdocs/SSUW/verify.php on line 106
+[06-Feb-2024 14:19:04 Europe/Berlin] PHP Warning:  Undefined array key "fName" in /Applications/XAMPP/xamppfiles/htdocs/SSUW/verify.php on line 6
+[06-Feb-2024 14:19:04 Europe/Berlin] PHP Warning:  Undefined array key "lName" in /Applications/XAMPP/xamppfiles/htdocs/SSUW/verify.php on line 7
+[06-Feb-2024 14:19:04 Europe/Berlin] PHP Warning:  Undefined array key "email" in /Applications/XAMPP/xamppfiles/htdocs/SSUW/verify.php on line 8
+[06-Feb-2024 14:19:04 Europe/Berlin] PHP Warning:  Undefined array key "type" in /Applications/XAMPP/xamppfiles/htdocs/SSUW/verify.php on line 11
+[06-Feb-2024 14:19:04 Europe/Berlin] PHP Warning:  Undefined array key "date" in /Applications/XAMPP/xamppfiles/htdocs/SSUW/verify.php on line 12
+[06-Feb-2024 14:19:04 Europe/Berlin] PHP Warning:  Undefined array key "hour" in /Applications/XAMPP/xamppfiles/htdocs/SSUW/verify.php on line 13
+[06-Feb-2024 14:19:04 Europe/Berlin] PHP Warning:  Undefined array key "submit" in /Applications/XAMPP/xamppfiles/htdocs/SSUW/verify.php on line 23
+[06-Feb-2024 14:19:04 Europe/Berlin] PHP Warning:  Undefined array key "fName" in /Applications/XAMPP/xamppfiles/htdocs/SSUW/verify.php on line 76
+[06-Feb-2024 14:19:04 Europe/Berlin] PHP Warning:  Undefined array key "lName" in /Applications/XAMPP/xamppfiles/htdocs/SSUW/verify.php on line 76
+[06-Feb-2024 14:19:04 Europe/Berlin] PHP Warning:  Undefined array key "type" in /Applications/XAMPP/xamppfiles/htdocs/SSUW/verify.php on line 96
+[06-Feb-2024 14:19:39 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Field 'bookingTheatre' doesn't have a default value in /Applications/XAMPP/xamppfiles/htdocs/SSUW/verify.php:32
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/SSUW/verify.php(32): mysqli_query(Object(mysqli), 'INSERT INTO boo...')
+#1 {main}
+  thrown in /Applications/XAMPP/xamppfiles/htdocs/SSUW/verify.php on line 32
+[06-Feb-2024 14:20:44 Europe/Berlin] PHP Warning:  Undefined array key "pNumber" in /Applications/XAMPP/xamppfiles/htdocs/SSUW/verify.php on line 9
+[06-Feb-2024 14:20:44 Europe/Berlin] PHP Warning:  Undefined array key "theatre" in /Applications/XAMPP/xamppfiles/htdocs/SSUW/verify.php on line 10
+[06-Feb-2024 14:20:44 Europe/Berlin] PHP Warning:  Undefined array key "movie_id" in /Applications/XAMPP/xamppfiles/htdocs/SSUW/verify.php on line 14
+[06-Feb-2024 14:20:44 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Field 'bookingTheatre' doesn't have a default value in /Applications/XAMPP/xamppfiles/htdocs/SSUW/verify.php:32
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/SSUW/verify.php(32): mysqli_query(Object(mysqli), 'INSERT INTO boo...')
+#1 {main}
+  thrown in /Applications/XAMPP/xamppfiles/htdocs/SSUW/verify.php on line 32
+[06-Feb-2024 14:27:01 Europe/Berlin] PHP Warning:  Undefined array key "pNumber" in /Applications/XAMPP/xamppfiles/htdocs/SSUW/verify.php on line 9
+[06-Feb-2024 14:27:01 Europe/Berlin] PHP Warning:  Undefined array key "theatre" in /Applications/XAMPP/xamppfiles/htdocs/SSUW/verify.php on line 10
+[06-Feb-2024 14:27:01 Europe/Berlin] PHP Warning:  Undefined array key "movie_id" in /Applications/XAMPP/xamppfiles/htdocs/SSUW/verify.php on line 14
+[06-Feb-2024 14:27:01 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Field 'bookingTheatre' doesn't have a default value in /Applications/XAMPP/xamppfiles/htdocs/SSUW/verify.php:32
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/SSUW/verify.php(32): mysqli_query(Object(mysqli), 'INSERT INTO boo...')
+#1 {main}
+  thrown in /Applications/XAMPP/xamppfiles/htdocs/SSUW/verify.php on line 32
+[06-Feb-2024 14:34:35 Europe/Berlin] PHP Warning:  Undefined array key "pNumber" in /Applications/XAMPP/xamppfiles/htdocs/SSUW/verify.php on line 9
+[06-Feb-2024 14:34:35 Europe/Berlin] PHP Warning:  Undefined array key "theatre" in /Applications/XAMPP/xamppfiles/htdocs/SSUW/verify.php on line 10
+[06-Feb-2024 14:34:35 Europe/Berlin] PHP Warning:  Undefined array key "movie_id" in /Applications/XAMPP/xamppfiles/htdocs/SSUW/verify.php on line 14
+[08-Feb-2024 14:25:31 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Field 'bookingTheatre' doesn't have a default value in /Applications/XAMPP/xamppfiles/htdocs/SSUW/verify.php:32
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/SSUW/verify.php(32): mysqli_query(Object(mysqli), 'INSERT INTO boo...')
+#1 {main}
+  thrown in /Applications/XAMPP/xamppfiles/htdocs/SSUW/verify.php on line 32
+[08-Feb-2024 14:26:53 Europe/Berlin] PHP Warning:  Undefined array key "ORDER_ID" in /Applications/XAMPP/xamppfiles/htdocs/SSUW/pgRedirect.php on line 14
+[08-Feb-2024 14:26:53 Europe/Berlin] PHP Warning:  Undefined array key "CUST_ID" in /Applications/XAMPP/xamppfiles/htdocs/SSUW/pgRedirect.php on line 15
+[08-Feb-2024 14:26:53 Europe/Berlin] PHP Warning:  Undefined array key "INDUSTRY_TYPE_ID" in /Applications/XAMPP/xamppfiles/htdocs/SSUW/pgRedirect.php on line 16
+[08-Feb-2024 14:26:53 Europe/Berlin] PHP Warning:  Undefined array key "CHANNEL_ID" in /Applications/XAMPP/xamppfiles/htdocs/SSUW/pgRedirect.php on line 17
+[08-Feb-2024 14:26:53 Europe/Berlin] PHP Warning:  Undefined array key "TXN_AMOUNT" in /Applications/XAMPP/xamppfiles/htdocs/SSUW/pgRedirect.php on line 18
+[08-Feb-2024 14:33:12 Europe/Berlin] PHP Warning:  Undefined array key "ORDER_ID" in /Applications/XAMPP/xamppfiles/htdocs/SSUW/NewSubmittedPage.php on line 14
+[08-Feb-2024 14:33:12 Europe/Berlin] PHP Warning:  Undefined array key "CUST_ID" in /Applications/XAMPP/xamppfiles/htdocs/SSUW/NewSubmittedPage.php on line 15
+[08-Feb-2024 14:33:12 Europe/Berlin] PHP Warning:  Undefined array key "INDUSTRY_TYPE_ID" in /Applications/XAMPP/xamppfiles/htdocs/SSUW/NewSubmittedPage.php on line 16
+[08-Feb-2024 14:33:12 Europe/Berlin] PHP Warning:  Undefined array key "CHANNEL_ID" in /Applications/XAMPP/xamppfiles/htdocs/SSUW/NewSubmittedPage.php on line 17
+[08-Feb-2024 14:33:12 Europe/Berlin] PHP Warning:  Undefined array key "TXN_AMOUNT" in /Applications/XAMPP/xamppfiles/htdocs/SSUW/NewSubmittedPage.php on line 18
+[08-Feb-2024 14:49:32 Europe/Berlin] PHP Warning:  Undefined array key "fName" in /Applications/XAMPP/xamppfiles/htdocs/SSUW/verify.php on line 6
+[08-Feb-2024 14:49:32 Europe/Berlin] PHP Warning:  Undefined array key "lName" in /Applications/XAMPP/xamppfiles/htdocs/SSUW/verify.php on line 7
+[08-Feb-2024 14:49:32 Europe/Berlin] PHP Warning:  Undefined array key "email" in /Applications/XAMPP/xamppfiles/htdocs/SSUW/verify.php on line 8
+[08-Feb-2024 14:49:32 Europe/Berlin] PHP Warning:  Undefined array key "type" in /Applications/XAMPP/xamppfiles/htdocs/SSUW/verify.php on line 11
+[08-Feb-2024 14:49:32 Europe/Berlin] PHP Warning:  Undefined array key "date" in /Applications/XAMPP/xamppfiles/htdocs/SSUW/verify.php on line 12
+[08-Feb-2024 14:49:32 Europe/Berlin] PHP Warning:  Undefined array key "hour" in /Applications/XAMPP/xamppfiles/htdocs/SSUW/verify.php on line 13
+[08-Feb-2024 14:49:32 Europe/Berlin] PHP Warning:  Undefined array key "submit" in /Applications/XAMPP/xamppfiles/htdocs/SSUW/verify.php on line 23
+[08-Feb-2024 14:49:32 Europe/Berlin] PHP Warning:  Undefined array key "fName" in /Applications/XAMPP/xamppfiles/htdocs/SSUW/verify.php on line 76
+[08-Feb-2024 14:49:32 Europe/Berlin] PHP Warning:  Undefined array key "lName" in /Applications/XAMPP/xamppfiles/htdocs/SSUW/verify.php on line 76
+[08-Feb-2024 14:49:32 Europe/Berlin] PHP Warning:  Undefined array key "type" in /Applications/XAMPP/xamppfiles/htdocs/SSUW/verify.php on line 96
+[13-Feb-2024 14:00:12 Europe/Berlin] PHP Warning:  Undefined array key "fName" in /Applications/XAMPP/xamppfiles/htdocs/SSUW/verify.php on line 6
+[13-Feb-2024 14:00:12 Europe/Berlin] PHP Warning:  Undefined array key "lName" in /Applications/XAMPP/xamppfiles/htdocs/SSUW/verify.php on line 7
+[13-Feb-2024 14:00:12 Europe/Berlin] PHP Warning:  Undefined array key "email" in /Applications/XAMPP/xamppfiles/htdocs/SSUW/verify.php on line 8
+[13-Feb-2024 14:00:12 Europe/Berlin] PHP Warning:  Undefined array key "type" in /Applications/XAMPP/xamppfiles/htdocs/SSUW/verify.php on line 11
+[13-Feb-2024 14:00:12 Europe/Berlin] PHP Warning:  Undefined array key "date" in /Applications/XAMPP/xamppfiles/htdocs/SSUW/verify.php on line 12
+[13-Feb-2024 14:00:12 Europe/Berlin] PHP Warning:  Undefined array key "hour" in /Applications/XAMPP/xamppfiles/htdocs/SSUW/verify.php on line 13
+[13-Feb-2024 14:00:12 Europe/Berlin] PHP Warning:  Undefined array key "submit" in /Applications/XAMPP/xamppfiles/htdocs/SSUW/verify.php on line 23
+[13-Feb-2024 14:00:12 Europe/Berlin] PHP Warning:  Undefined array key "fName" in /Applications/XAMPP/xamppfiles/htdocs/SSUW/verify.php on line 75
+[13-Feb-2024 14:00:12 Europe/Berlin] PHP Warning:  Undefined array key "lName" in /Applications/XAMPP/xamppfiles/htdocs/SSUW/verify.php on line 75
+[13-Feb-2024 14:00:12 Europe/Berlin] PHP Warning:  Undefined array key "date" in /Applications/XAMPP/xamppfiles/htdocs/SSUW/verify.php on line 79
+[13-Feb-2024 14:00:12 Europe/Berlin] PHP Warning:  Undefined array key "hour" in /Applications/XAMPP/xamppfiles/htdocs/SSUW/verify.php on line 83
+[13-Feb-2024 14:00:12 Europe/Berlin] PHP Warning:  Undefined array key "email" in /Applications/XAMPP/xamppfiles/htdocs/SSUW/verify.php on line 87
+[13-Feb-2024 14:00:12 Europe/Berlin] PHP Warning:  Undefined array key "type" in /Applications/XAMPP/xamppfiles/htdocs/SSUW/verify.php on line 105
+[13-Feb-2024 14:03:27 Europe/Berlin] PHP Warning:  Undefined array key "fName" in /Applications/XAMPP/xamppfiles/htdocs/SSUW/verify.php on line 6
+[13-Feb-2024 14:03:27 Europe/Berlin] PHP Warning:  Undefined array key "lName" in /Applications/XAMPP/xamppfiles/htdocs/SSUW/verify.php on line 7
+[13-Feb-2024 14:03:27 Europe/Berlin] PHP Warning:  Undefined array key "email" in /Applications/XAMPP/xamppfiles/htdocs/SSUW/verify.php on line 8
+[13-Feb-2024 14:03:27 Europe/Berlin] PHP Warning:  Undefined array key "type" in /Applications/XAMPP/xamppfiles/htdocs/SSUW/verify.php on line 11
+[13-Feb-2024 14:03:27 Europe/Berlin] PHP Warning:  Undefined array key "date" in /Applications/XAMPP/xamppfiles/htdocs/SSUW/verify.php on line 12
+[13-Feb-2024 14:03:27 Europe/Berlin] PHP Warning:  Undefined array key "hour" in /Applications/XAMPP/xamppfiles/htdocs/SSUW/verify.php on line 13
+[13-Feb-2024 14:03:27 Europe/Berlin] PHP Warning:  Undefined array key "submit" in /Applications/XAMPP/xamppfiles/htdocs/SSUW/verify.php on line 23
+[13-Feb-2024 14:03:27 Europe/Berlin] PHP Warning:  Undefined array key "fName" in /Applications/XAMPP/xamppfiles/htdocs/SSUW/verify.php on line 75
+[13-Feb-2024 14:03:27 Europe/Berlin] PHP Warning:  Undefined array key "lName" in /Applications/XAMPP/xamppfiles/htdocs/SSUW/verify.php on line 75
+[13-Feb-2024 14:03:27 Europe/Berlin] PHP Warning:  Undefined array key "date" in /Applications/XAMPP/xamppfiles/htdocs/SSUW/verify.php on line 79
+[13-Feb-2024 14:03:27 Europe/Berlin] PHP Warning:  Undefined array key "hour" in /Applications/XAMPP/xamppfiles/htdocs/SSUW/verify.php on line 83
+[13-Feb-2024 14:03:27 Europe/Berlin] PHP Warning:  Undefined array key "email" in /Applications/XAMPP/xamppfiles/htdocs/SSUW/verify.php on line 87
+[13-Feb-2024 14:03:27 Europe/Berlin] PHP Warning:  Undefined array key "type" in /Applications/XAMPP/xamppfiles/htdocs/SSUW/verify.php on line 105
+[13-Feb-2024 14:22:22 Europe/Berlin] PHP Warning:  Undefined variable $order in /Applications/XAMPP/xamppfiles/htdocs/SSUW/verify.php on line 30
