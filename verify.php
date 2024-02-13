@@ -135,7 +135,6 @@ if (isset($_POST['submit'])) {
 
 
                     <tr>
-                        <td>
                             <button value="Book Now!" type="submit" onclick="" type="button" class="btn btn-danger">Confirm and Submit!</button>
                             <!-- <input value="CheckOut" type="submit"	onclick=""></td> -->
                     </tr>
