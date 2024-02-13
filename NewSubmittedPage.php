@@ -49,11 +49,11 @@ $paramList["IS_USER_VERIFIED"] = "YES"; //
 </head>
 
 <body>
-	<center>
-		<h1>Please Wait</h1>
-	</center>
+	
 	<form method="post" action="<?php echo "YOU ARE DONE!" ?>" name="f1">
-		<b>You ARE DONE</b>
+		<center>
+		<h1>SUBMITTED, YOU MAY LEAVE</h1>
+		</center>
 		<!-- <table border="1">
 			<tbody>
 				<?php
