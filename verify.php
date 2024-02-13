@@ -83,7 +83,7 @@ if (isset($_POST['submit'])) {
                         <td><?php echo $_POST['hour']; ?></td>
                     </tr>
                     <tr>
-                        <td><label>Time</label></td>
+                        <td><label>Email</label></td>
                         <td><?php echo $_POST['email']; ?></td>
                     </tr>
                    <!-- <tr>
