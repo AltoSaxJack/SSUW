@@ -134,12 +134,10 @@ if (isset($_POST['submit'])) {
                     
 
                     </tbody>
-                    <tr>
-                            <button value="Book Now!" type="submit" onclick="" type="button" class="btn btn-danger">Confirm and Submit!</button>
+                           
                             <!-- <input value="CheckOut" type="submit"	onclick=""></td> -->
-                    </tr>
-                
             </table>
+            <button value="Book Now!" type="submit" onclick="" type="button" class="btn btn-danger">Confirm and Submit!</button>
         </form>
     </center>
     <!-- Optional JavaScript -->
