@@ -92,20 +92,18 @@ include "connection.php";
                         <option value=<?php echo date("d/m/Y", strtotime("+2 day"))?>><?php echo date("d/m/Y", strtotime("+2 day"))?></option>
                         <option value=<?php echo date("d/m/Y", strtotime("+3 day"))?>><?php echo date("d/m/Y", strtotime("+3 day"))?></option>
                         <option value=<?php echo date("d/m/Y", strtotime("+4 day"))?>><?php echo date("d/m/Y", strtotime("+4 day"))?></option>
+                        <option value=<?php echo date("d/m/Y", strtotime("+5 day"))?>><?php echo date("d/m/Y", strtotime("+5 day"))?></option>
                     </select>
-
-                    <select name="hour" required>
+                    
+                    
+                    
+                  <!--  <select name="hour" required>
                         <option value="" disabled selected>TIME</option>
-                        <option value="09-00">09:00 AM</option>
-                        <option value="12-00">12:00 AM</option>
-                        <option value="15-00">03:00 PM</option>
-                        <option value="18-00">06:00 PM</option>
-                        <option value="21-00">09:00 PM</option>
-                        <option value="24-00">12:00 PM</option>
-                    </select>
-
+                        <option value="12:00 AM">12:00 AM</option>
+                        
+                    </select>-->
+                    <input placeholder="Time" type="time" name="hour" required>
                     <input placeholder="First Name" type="text" name="fName" required>
-
                     <input placeholder="Last Name" type="text" name="lName">
 
                   <!--  <input placeholder="Phone Number" type="text" name="pNumber" required>-->
