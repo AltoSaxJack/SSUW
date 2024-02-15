@@ -80,7 +80,7 @@ if (!isset($_SESSION['uname'])) {
                                 <th>Time</th>
                                 <!--<th>Theatre</th>-->
                                 <th>Type</th>
-                                <th>Order ID</th>
+                           <!--     <th>Order ID</th>-->
                             </tr>
                             <tbody>
                                 <?php
@@ -98,7 +98,7 @@ if (!isset($_SESSION['uname'])) {
                                     $time = $row['bookingTime'];
                                    // $theatre = $row['bookingTheatre'];
                                     $type = $row['bookingType'];
-                                    $ORDERID = $row['ORDERID'];
+                                   // $ORDERID = $row['ORDERID'];
 
 
 
@@ -114,7 +114,7 @@ if (!isset($_SESSION['uname'])) {
                                         <td><?php echo $time; ?></td>
                                         <!--<td><?php //echo $theatre; ?></td>-->
                                         <td><?php echo $type; ?></td>
-                                        <td><?php echo $ORDERID; ?></td>
+                                       <!-- <td><?php //echo $ORDERID; ?></td>-->
                                     </tr>
 
                                 <?php }
