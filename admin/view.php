@@ -100,7 +100,7 @@ if (isset($_POST['but_logout'])) {
                                     <td><?php echo $ORDERID; ?></td>
                                   <!--  <td><?php //echo $amount; ?></td>-->
                                     <td><button type="submit" type="button" class="btn btn-outline-danger"><?php echo  "<a href='deleteBooking.php?id=" . $row['bookingID'] . "' >delete</a>"; ?></button><button name="update"  type="submit" onclick="" type="button" class="btn btn-outline-warning"><?php echo  "<a href='editBooking.php?id=" . $row['bookingID'] . "'>update</a>"; ?></button></td>
-                                    <td></td>
+                                    <!--<td></td>-->
                                 </tr>
 
                             <?php }
