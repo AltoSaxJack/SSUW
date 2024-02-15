@@ -58,7 +58,7 @@ if (isset($_POST['but_logout'])) {
                             <!--<th>Phone Number</th>-->
                             <th>Email</th>
                             <th>Date</th>
-                         <!--   <th>Theatre</th>-->
+                            <th>Type</th>
                             <th>Time</th>
                             <th>Order ID</th>
                            <!-- <th>Amount</th>-->
