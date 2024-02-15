@@ -53,15 +53,15 @@ if (isset($_POST['but_logout'])) {
                     <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
                         <tr>
                             <th>Booking ID</th>
-                            <th>Movie ID</th>
+                           <!-- <th>Movie ID</th>-->
                             <th>Name</th>
                             <!--<th>Phone Number</th>-->
                             <th>Email</th>
                             <th>Date</th>
-                            <th>Theatre & Type</th>
+                         <!--   <th>Theatre</th>-->
                             <th>Time</th>
                             <th>Order ID</th>
-                            <th>Amount</th>
+                           <!-- <th>Amount</th>-->
                             <th>More</th>
 
                         </tr>
@@ -73,32 +73,32 @@ if (isset($_POST['but_logout'])) {
                             $run = mysqli_query($con, $select);
                             while ($row = mysqli_fetch_array($run)) {
                                 $bookingid = $row['bookingID'];
-                                $movieID = $row['movieID'];
+                            //    $movieID = $row['movieID'];
                                 $bookingFName = $row['bookingFName'];
                                 $bookingLName = $row['bookingLName'];
-                                $mobile = $row['bookingPNumber'];
+                               // $mobile = $row['bookingPNumber'];
                                 $email = $row['bookingEmail'];
                                 $date = $row['bookingDate'];
-                                $theatre = $row['bookingTheatre'];
+                               // $theatre = $row['bookingTheatre'];
                                 $type = $row['bookingType'];
                                 $time = $row['bookingTime'];
                                 $ORDERID = $row['ORDERID'];
-                                $amount = $row['amount'];
+                               // $amount = $row['amount'];
 
                                 
 
                             ?>
                                 <tr align="center">
                                 <td><?php echo $bookingid; ?></td>
-                                    <td><?php echo $movieID; ?></td>
+                                    <td><?php //echo $movieID; ?></td>
                                     <td><?php echo $bookingFName . ' ' . $bookingLName; ?></td>
-                                    <td><?php echo $mobile; ?></td>
+                                    <td><?php// echo $mobile; ?></td>
                                     <td><?php echo $email; ?></td>
                                     <td><?php echo $date; ?></td>
-                                    <td><?php echo $theatre . ' ' . $type; ?></td>
+                                    <td><?php echo $type; ?></td>
                                     <td><?php echo $time; ?></td>
                                     <td><?php echo $ORDERID; ?></td>
-                                    <td><?php echo $amount; ?></td>
+                                    <td><?php //echo $amount; ?></td>
                                     <td><button type="submit" type="button" class="btn btn-outline-danger"><?php echo  "<a href='deleteBooking.php?id=" . $row['bookingID'] . "' >delete</a>"; ?></button><button name="update"  type="submit" onclick="" type="button" class="btn btn-outline-warning"><?php echo  "<a href='editBooking.php?id=" . $row['bookingID'] . "'>update</a>"; ?></button></td>
                                     <td></td>
                                 </tr>
