@@ -56,11 +56,11 @@ if (!isset($_SESSION['uname'])) {
                         <h2 style="color: #bb3c95"><?php echo $userNo ?></h2>
                         <h3>Users</h3>
                     </div>
-                    <div class="admin-section-stats-panel" style="border: none">
+                  <!--  <div class="admin-section-stats-panel" style="border: none">
                         <i class="fas fa-envelope" style="background-color: #3cbb6c"></i>
-                        <h2 style="color: #3cbb6c"><?php echo $messagesNo ?></h2>
+                        <h2 style="color: #3cbb6c"><?php //echo $messagesNo ?></h2>
                         <h3>Messages</h3>
-                    </div>
+                    </div>-->
                 </div>
                 <div class="admin-section-panel admin-section-panel1">
                     <div class="admin-panel-section-header">
