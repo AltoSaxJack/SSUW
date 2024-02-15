@@ -102,7 +102,8 @@ include "connection.php";
                         <option value="12:00 AM">12:00 AM</option>
                         
                     </select>-->
-                    <input placeholder="Time" type="time" name="hour" required>
+                    <label for="hour">Select a time:</label>
+                    <input type="time" name="hour" required>
                     <input placeholder="First Name" type="text" name="fName" required>
                     <input placeholder="Last Name" type="text" name="lName">
 
