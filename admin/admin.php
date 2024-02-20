@@ -52,7 +52,7 @@ if (isset($_POST['but_logout'])) {
 
                     <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
                         <tr>
-                            <th>Booking ID</th>
+                            <th>SignUp ID</th>
                            <!-- <th>Movie ID</th>-->
                             <th>Name</th>
                             <!--<th>Phone Number</th>-->
