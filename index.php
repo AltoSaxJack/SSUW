@@ -97,7 +97,7 @@ include "connection.php";
                     
                     <label for="date">Select a date:</label>
 
-                    <input type="date" name="date" data-date-format="DD MM YYYY" value=<?php echo date("d/m/Y")?>required>
+                    <input type="date" name="date" required>
                     
                   <!--  <select name="hour" required>
                         <option value="" disabled selected>TIME</option>
