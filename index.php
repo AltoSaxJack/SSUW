@@ -85,17 +85,18 @@ include "connection.php";
                         -->
                     </select>
 
-                    <select name="date" required>
+                 <!--    <select name="date" required>
                         <option value="" disabled selected>DATE</option>
-                        <option value=<?php echo date("d/m/Y")?>> <?php echo date("d/m/Y")?> </option>
-                        <option value=<?php echo date("d/m/Y", strtotime("+1 day"))?>><?php echo date("d/m/Y", strtotime("+1 day"))?></option>
-                        <option value=<?php echo date("d/m/Y", strtotime("+2 day"))?>><?php echo date("d/m/Y", strtotime("+2 day"))?></option>
-                        <option value=<?php echo date("d/m/Y", strtotime("+3 day"))?>><?php echo date("d/m/Y", strtotime("+3 day"))?></option>
-                        <option value=<?php echo date("d/m/Y", strtotime("+4 day"))?>><?php echo date("d/m/Y", strtotime("+4 day"))?></option>
-                        <option value=<?php echo date("d/m/Y", strtotime("+5 day"))?>><?php echo date("d/m/Y", strtotime("+5 day"))?></option>
-                    </select>
+                        <option value=<?php// echo date("d/m/Y")?>> <?php //echo date("d/m/Y")?> </option>
+                        <option value=<?php //echo date("d/m/Y", strtotime("+1 day"))?>><?php//echo date("d/m/Y", strtotime("+1 day"))?></option>
+                        <option value=<?php //echo date("d/m/Y", strtotime("+2 day"))?>><?php// echo date("d/m/Y", strtotime("+2 day"))?></option>
+                        <option value=<?php// echo date("d/m/Y", strtotime("+3 day"))?>><?php //echo date("d/m/Y", strtotime("+3 day"))?></option>
+                        <option value=<?php //echo date("d/m/Y", strtotime("+4 day"))?>><?php //echo date("d/m/Y", strtotime("+4 day"))?></option>
+                        <option value=<?php //echo date("d/m/Y", strtotime("+5 day"))?>><?php// echo date("d/m/Y", strtotime("+5 day"))?></option>
+                    </select> -->
                     
-                    
+                    <label for="date">Select a date:</label>
+                    <input type="date" name="date" required>
                     
                   <!--  <select name="hour" required>
                         <option value="" disabled selected>TIME</option>
